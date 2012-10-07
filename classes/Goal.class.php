@@ -1,11 +1,15 @@
 <?php
 class Goal {
 	private $id_goal;
-	private $id_goal_parent;
-	private $id_user;
+	private $goal_parent;
+	private $user;
 	private $name;
 	private $deadline;
 	
+	
+	function __construct() {
+		
+	}
 	
 	/**
 	 * Adding goal.
@@ -54,5 +58,25 @@ class Goal {
 	 */
 	public function getGoalSuggestion() {
 		//implementuot naudojant sitos classes functions "getkeywords" ir "getKeywordSuggestion($keyword)"
+	}
+	
+	public function addNote() {
+		
+	}
+	
+	public function updateNote() {
+		
+	}
+	
+	public function getNotes() {
+		
+	}
+	
+	public function setRespect() {
+		
+	}
+	
+	public function getRespects() {
+		// grazinti sukuriant nauja objecta. e.g. return
 	}
 }

@@ -38,5 +38,6 @@ class Article {
 	}
 	
 	public function getComments() {
+		
 	}
 }
