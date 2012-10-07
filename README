@@ -1,0 +1,47 @@
+Bachelor project "Dream website" for VIA University College by Osvaldas Rokas, Marius Jurksaitis, Andrius Baliutavicius.
+
+------- Background description ---------
+Today, we can see that people lack of happiness and inspiration in their lives.
+ They just skip days one by one. They lack of inspiration. They cannot find clear
+  reason to wake up in morning. We think, that is impossible to enjoy your life, 
+  if you don’t have purpose for living, you don’t have dreams.
+Sure, we know, that we should have purpose. But harder question is: how to dream 
+and achieve something? How to stay motivated? Self-help authors, especially Og 
+Mandino, Napoleon Hill, and Robin Sharma suggest us these ways:
+* See end before you begin
+* Write your daily notes of your achievements, goals
+* Get support from friends and relatives
+* Dream
+Our bachelor project idea is based on those suggestions and our motivation to make 
+at least few people happier with their lives.
+We are planning to make a website in which any person could register. The main 
+websites purpose is going to be writing down and keeping track of your goals. Since 
+it’s always easier to achieve goals with support, users will be allowed to see each 
+other goals, comment on them, share knowledge and advices. Each user will have its 
+own profile with all his goals which include current goals, completed goals and 
+goals to make in the future. Near his own goals user will always see a couple of 
+suggestion or similar goals of other persons. For example if a person got a goal 
+to hitchhike through particular country he might see other peoples comments or 
+articles about their experience hitchhiking there or an article about good hitchhiking
+ routes and places to see on the way.
+This website is not supposed to be another facebook or twitter. It’s supposed to help 
+people achieve their goals and find new ones. It’s always easier to do something if you
+ have some support from someone. Some people just need a little ‘’Kick in the butt’’ 
+ to start doing what they really want and this website is supposed to be it. You will 
+ not only write your dreams here but you will also find stories of other people and 
+ see how they did it so you will have more courage to do it yourself.
+
+------ Developer guide -----------------
+
+------ Error message reporting ---------
+
+Some function requires return of Error array, in case of failure. Error array must be in following structure:
+
+$error[0]['debug_msg'] = 'Failure in SQL query. Check it again';
+$error[0]['error_no'] = '1085';
+$error[0]['msg'] = 'Comment could not be added. Please try again later'; 
+
+debug_msg - for debugging purposes. It is not visible to final customer
+error_no - for debugging purposes. For example SQL error number. Not visible to user
+msg - error message which is visible to user.
+ 
