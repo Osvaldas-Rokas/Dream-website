@@ -15,7 +15,7 @@ class Goal {
 	 * Adding goal.
 	 * @return boolean or array of error message
 	 */
-	public function add () {
+	public function add ($name, $text, $IR_TAIP_TOLIAU_TESTI_SU_VISAIS_LAUKAIS) {
 		
 	}
 	
@@ -23,7 +23,7 @@ class Goal {
 	 * Update goal
 	 * @return boolean or array of error message
 	 */
-	public function update () {
+	public function update ($name, $text, $IR_TAIP_TOLIAU_TESTI_SU_VISAIS_LAUKAIS) {
 		
 	}
 	
